@@ -14,3 +14,4 @@ Offline Raspberry Pi Zero 2 W hotspot + wiki-style library for PDFs/images.
 - [ ] Step 5: Install + serve DokuWiki (Nginx + PHP)
 - [ ] Step 6: Wiki sidebar + categories
 - [ ] Step 7: Add content pipeline (PDFs/images)
+
