@@ -98,6 +98,9 @@ Phase 1 complete:
 * Media system verified
 * Offline PDF serving confirmed
 
+<img width="1884" height="1011" alt="image" src="https://github.com/user-attachments/assets/13824d52-1719-4272-909b-7ff0330c2b81" />
+
+
 ---
 # Create your own (Docker)
 Skeleton deployment for an offline-first Raspberry Pi knowledge wiki using Docker Compose:
