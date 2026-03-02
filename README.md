@@ -99,4 +99,21 @@ Phase 1 complete:
 * Offline PDF serving confirmed
 
 ---
+# Create your own (Docker)
+Skeleton deployment for an offline-first Raspberry Pi knowledge wiki using Docker Compose:
+- nginx (web)
+- php-fpm (runtime)
+- DokuWiki (mounted into ./wiki)
 
+Hotspot/networking (if used) is configured on the host OS (outside Docker).
+
+## Run
+docker compose up -d
+
+## Access
+http://<pi-ip> (home Wi-Fi)  
+http://10.42.0.1 (hotspot mode, if configured)
+
+## Notes
+- The DokuWiki directory is mounted at ./wiki (persistent).
+- This repo does not include DokuWiki files or content by default.

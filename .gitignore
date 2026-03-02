@@ -1,0 +1,13 @@
+# DokuWiki runtime / generated content (if you later mount content separately)
+data/pages/*
+data/media/*
+!data/pages/.gitkeep
+!data/media/.gitkeep
+
+# If you keep full DokuWiki install in ./wiki, don't commit it
+wiki/*
+!wiki/.gitkeep
+
+# OS / tooling
+.DS_Store
+Thumbs.db
